@@ -19,6 +19,7 @@
 
         <!--user-->
         <EditText
+            android:id="@+id/edtEmail"
             android:textSize="@dimen/h3"
             android:background="@drawable/textfield_email"
             android:layout_width="match_parent"
@@ -28,6 +29,7 @@
 
         <!--password-->
         <EditText
+            android:id="@+id/edtPassword"
             android:background="@drawable/textfield_password"
             android:textSize="@dimen/h3"
             android:layout_width="match_parent"
@@ -37,6 +39,7 @@
 
         <!--Login-->
         <Button
+            android:id="@+id/btnLogin"
             android:background="@drawable/bt_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
